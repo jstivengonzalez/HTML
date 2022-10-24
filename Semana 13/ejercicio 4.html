@@ -1,0 +1,32 @@
+<title>EJEMPLO JAVASCRIPT</title>
+<meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var prom=0;
+        var suma=0;
+
+        var num_std=1;
+        //
+        while(num_stud<=3) {
+            nomstd=prompt( 'Ingrese el nombre del estudiante', '');
+            var num = 1;
+        while (num <= 3) {
+        //
+        nota=parseFloat(prompt('ingrese nota de programacion'+num,''));
+        //
+        suma+=nota;
+        num ++;    
+        }
+        num_std ++;
+        }
+        //
+        prom=suma/9;
+        //
+        document.write('*******'+'COLEGIO TECNOLOGICO SYSTEM PLUS:'+'******'+'<br>'+'<br>');
+        document.write('***'+'BOLETIN DE NOTAS:'+'***'+'<br>'+'<br>');
+        document.write('PROMEDIO NOTAS GRUPO :nspinbsinbsp'+ prom.tofixed(2));
+
+    </script>
+</body>
+</html>
